@@ -1,3 +1,12 @@
+/* Color Scheme
+ Neon Blue (#1B02A3), 
+ Brandeis Blue (#006AF9), 
+ Capri (#00C0F9), 
+ Phlox (#DC00FE), 
+ Electric Purple (#BC00FE) and 
+ Han Purple (#5319FB).
+
+*/
 body {
     height: 100vh;
 }
@@ -41,7 +50,7 @@ body {
 }
 
 a:hover {
-    color: white;
+    color: #FFF5EE;
 }
 
 .section {
@@ -49,15 +58,21 @@ a:hover {
 }
 
 h1 {
-    color: white;
-    margin-top: 100px;
+    color: #FFF5EE;
+    margin-top: 150px;
     margin-bottom: 50px;
     font-size: 50px;
 }
 
-section p {
-    color: white;
-    padding: 50px 200px;
+p {
+    color: #FFF5EE;
+    padding: 100px 200px;
+}
+
+.entrance {
+    padding: 12px 20px;
+    background: #00C0F9;
+    color: #FFF5EE;
 }
 
 footer {
@@ -67,7 +82,7 @@ footer {
 }
 
 footer p {
-    color: white;
+    color: #FFF5EE;
 }
 
 
@@ -78,4 +93,12 @@ footer p {
     .parallax {
       background-attachment: scroll;
     }
+  }
+
+  canvas {
+    background: black;
+    opacity: .9;
+    transition: ease;
+    position:absolute;
+    z-index: -1;
   }
