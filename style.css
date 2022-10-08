@@ -69,10 +69,12 @@ p {
     padding: 100px 200px;
 }
 
-.entrance {
+#entrance {
     padding: 12px 20px;
     background: #00C0F9;
     color: #FFF5EE;
+    border-color: #00C0F9;
+    border-radius: 9px;
 }
 
 footer {

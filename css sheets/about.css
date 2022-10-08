@@ -1,0 +1,92 @@
+/* Color Scheme
+ Neon Blue (#1B02A3), 
+ Brandeis Blue (#006AF9), 
+ Capri (#00C0F9), 
+ Phlox (#DC00FE), 
+ Electric Purple (#BC00FE) and 
+ Han Purple (#5319FB).
+
+*/
+body {
+    height: 100vh;
+}
+
+.parallax {
+    height: 100%;
+    background-image: url("./images/neon-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+  
+.nav-bar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    padding-top: 220px;
+}
+
+.nav-bar a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+}
+
+a:hover {
+    color: #FFF5EE;
+}
+
+.section {
+
+}
+
+h1 {
+    color: #FFF5EE;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+section p {
+    color: #FFF5EE;
+    padding: 100px 200px;
+}
+
+
+
+footer {
+    padding: 20px;
+    padding-left: 10%;
+    background-color: #111;
+}
+
+footer p {
+    color: #FFF5EE;
+}
+
+
+
+
+/* Some mobile devices have a problem with background-attachment: fixed. So, you can use media queries to turn off the parallax effect for mobile devices: */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
