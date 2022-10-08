@@ -12,8 +12,8 @@ body {
 }
 
 .parallax {
-    height: 100%;
-    background-image: url("./images/neon-background.jpg");
+    /* height: 100vh; */
+    background-image: url("/images/other-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,11 @@ body {
     left: 0;
     /* background-color: #111; */
     overflow-x: hidden;
-    padding-top: 220px;
+    padding-top: 300px;
+}
+
+nav {
+    padding-right: 60px;
 }
 
 .nav-bar a {
@@ -53,8 +57,27 @@ a:hover {
     color: #FFF5EE;
 }
 
-.section {
+footer {
+    padding: 20px 40px;
+    padding-left: 5%;
+    background-color: #111;
+    grid-row: 7;
+    grid-column: 1/4;
+}
 
+footer p {
+    color: #FFF5EE;
+}
+
+
+
+
+
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -64,22 +87,29 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    color: #FFF5EE;
+    padding: 50px 20px;
+    grid-column: 2;
+    font-size: 20px;
+    text-align: left;
+}
+
 section p {
     color: #FFF5EE;
-    padding: 100px 200px;
+    padding-right: 50px;
+}
+
+.row-1, .row-1p {
+    width: auto;
+    height: 200px;
+}
+
+.row-1 {
+    grid-column: 2/3;
 }
 
 
-
-footer {
-    padding: 20px;
-    padding-left: 10%;
-    background-color: #111;
-}
-
-footer p {
-    color: #FFF5EE;
-}
 
 
 
