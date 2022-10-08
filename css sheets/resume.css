@@ -4,7 +4,7 @@ body {
 }
 
 .parallax {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("/images/other-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 15% 5% 20% 20% 20% 20%;
     align-items: stretch;
-    grid-gap: 40px;
+    
 }
 
 h1 {
@@ -81,6 +81,7 @@ h1 {
 
 .se2 {
     margin: 0;
+    padding-top: 10px;
     text-align: center;
     font-size: 30px;
     border-bottom: 2px solid white;
@@ -135,13 +136,14 @@ section {
     justify-content: center;
     align-content: stretch;
     width: 50vh;
+    height: fit-content;
 }
 
 section.A1 {
     /* border: 2px solid pink; */
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    height: fit-content;
+    grid-row: 3 ;
+    
 }
 
 .sl {
@@ -171,20 +173,21 @@ section.A2 {
 section.A3 {
     /* border: 2px solid yellow; */
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 5 ;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 section.A5 {
     /* border: 1px solid purple; */
-    grid-column: 2 / 3;
-    grid-row: 5 / 6;
+    grid-column: 3 / 4;
+    grid-row: 6;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .diffont {
