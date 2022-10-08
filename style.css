@@ -11,62 +11,40 @@ body {
     height: 100vh;
 }
 
-.parallax {
-    height: 100%;
-    background-image: url("./images/neon-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
-    background-attachment: fixed;
-    z-index: -1;
-  }
-
 .main-container {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
 }
-  
-.nav-bar {
-    height: 100vh;
-    width: 20%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* background-color: #111; */
-    overflow-x: hidden;
-    padding-top: 220px;
-}
-
-.nav-bar a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #818181;
-    display: block;
-}
-
-a:hover {
-    color: #FFF5EE;
-}
 
 .section {
 
 }
 
-h1 {
+.lHeader {
     color: #FFF5EE;
     margin-top: 150px;
     margin-bottom: 50px;
     font-size: 50px;
+    transition: transform ease;
+    animation-name: test;
+    animation-duration: 2s;
 }
 
-p {
+@keyframes test {
+      0%   {opacity: 0; transform: translateY(75px);}
+      50%  {opacity: .5; transform: translateY(25px);}
+      /* 50%  {opacity: .75; transform: translateY(25px);} */
+      100% {opacity: 1; }
+}
+
+.pHeader {
     color: #FFF5EE;
     padding: 100px 200px;
+    transition: transform ease;
+    animation-name: test;
+    animation-duration: 2s;
 }
 
 #entrance {
@@ -75,32 +53,21 @@ p {
     color: #FFF5EE;
     border-color: #00C0F9;
     border-radius: 9px;
+    transition: transform ease;
+    animation-name: test;
+    animation-duration: 2s;
 }
-
-footer {
-    padding: 20px;
-    padding-left: 10%;
-    background-color: #111;
-}
-
-footer p {
-    color: #FFF5EE;
-}
-
-
 
 
 /* Some mobile devices have a problem with background-attachment: fixed. So, you can use media queries to turn off the parallax effect for mobile devices: */
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
-    }
+    
   }
 
   canvas {
     background: black;
     opacity: .9;
-    transition: ease;
     position:absolute;
     z-index: -1;
   }
+
