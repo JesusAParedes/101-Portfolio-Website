@@ -1,0 +1,192 @@
+body {
+    /* height: 100vh; */
+    color:#FFF5EE;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url("/images/other-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Give the value "fixed" to the background-attachment property to create the parallax scrolling effect */
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+  
+.nav-bar {
+    /* height: 100vh; */
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    padding-top: 300px;
+}
+
+nav {
+    padding-right: 60px;
+}
+
+.nav-bar a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+}
+
+a:hover {
+    color: #FFF5EE;
+}
+
+footer {
+    padding: 20px 40px;
+    padding-left: 5%;
+    background-color: #111;
+    grid-row: 6;
+    grid-column: 1/4;
+}
+
+footer p {
+    color: #FFF5EE;
+}
+
+
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15% 5% 20% 20% 20% 20%;
+    align-items: stretch;
+    grid-gap: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.se2 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    width: 90%;
+}
+
+.se3 {
+    width: 90%;
+}
+
+article {
+    font-size: 15px;
+}
+
+.main-container2 {
+    height: 50px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+main img {
+    /* display: grid; */
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    place-items: center;
+    border-radius: 70%;
+    margin-left: 25%;
+}
+
+.links {
+    display: flex;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    width: 80%;
+    align-content: center;
+    margin-left: 10%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+}
+
+
+div img {
+    height: 20px;
+    width: auto;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: stretch;
+    width: 50vh;
+}
+
+section.A1 {
+    /* border: 2px solid pink; */
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    height: fit-content;
+}
+
+.sl {
+    display: flex;
+    flex-direction: column;
+}
+
+p ul {
+    display: flex;
+}
+
+ li {
+    padding: 5px 10px;
+}
+
+ul {
+    font-size: 15px;
+    margin: 0;
+}
+
+section.A2 {
+    /* border: 2px solid red; */
+    grid-column: 3 / 4;
+    grid-row: 3 / span6;
+}
+
+section.A3 {
+    /* border: 2px solid yellow; */
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.A5 {
+    /* border: 1px solid purple; */
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+}
+
+.diffont {
+    font-size: 12px;
+}
