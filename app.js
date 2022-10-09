@@ -7,7 +7,7 @@ const c = canvas.getContext('2d')
  canvas.width = window.innerWidth
  canvas.height = window.innerHeight
 
-for(let i=0; i < 250; i++ ) {
+for(let i=0; i < 450; i++ ) {
     const x = Math.random() * (window.innerWidth)
     const y = Math.random() * (window.innerHeight)
     // the first value will be null to accommodate for no 0 number being drawn
@@ -26,6 +26,10 @@ for(let i=0; i < 250; i++ ) {
     c.moveTo(x, y);
     c.lineTo(x, y);
     c.stroke()}
+
+
+
+  
 
 
 
