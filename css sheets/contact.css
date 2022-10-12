@@ -9,7 +9,8 @@
 */
 body {
     height: 100vh;
-    color:#FFF5EE
+    color:#FFF5EE;
+    font-family: "EB Garamond", "Times New Roman", Arial, Helvetica, sans-serif;
 }
 
 .parallax {
