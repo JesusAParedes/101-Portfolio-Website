@@ -76,9 +76,11 @@ footer p {
 
 .section-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     padding-bottom: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
 }
 
 h1 {
@@ -91,7 +93,7 @@ h1 {
 h2 {
     color: #FFF5EE;
     padding: 50px 20px;
-    grid-column: 2;
+    grid-column: 1;
     font-size: 20px;
     text-align: left;
 }
@@ -107,7 +109,7 @@ section p {
 }
 
 .row-1 {
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 
