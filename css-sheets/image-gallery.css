@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    padding-bottom: 800px;
 }
   
 .nav-bar {
@@ -85,11 +86,12 @@ h1 {
 .one {
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 14%;
+    margin: 5px 50px;
 }
 
 .card {
-    margin: 5px 60px;
+    margin: 0;
     width: 22rem;
     text-align: center;
     background-color: rgb(255,255,255,.8);
@@ -99,7 +101,7 @@ h1 {
 
 .card:hover {
     width: 350px;
-    transform: translate(50px, -50px);
+    transform: translate(30px, -30px);
     box-shadow: -25px 20px rgb(129, 129, 129,.7);
 }
 
