@@ -28,7 +28,6 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding-bottom: 800px;
 }
   
 .nav-bar {
@@ -118,4 +117,51 @@ h1 {
 }
 
 
+@media (max-width: 576px) {
 
+
+    .nav-bar {
+        padding-top: 180px;
+    }
+
+    .nav-bar a {
+        font-size: 20px;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    .one {
+        display: flex;
+        flex-direction: column;
+        top: 15%;
+    }
+
+    .card {
+        margin: 10px 20px;
+        flex-direction: row;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 5px 15px;
+        background: #5319FB;
+        color: #FFF5EE;
+        margin-top: 15px;
+    }
+
+    .card-img-top {
+        height: 170px;
+        border: 2px solid red;
+    }
+
+    
+}
