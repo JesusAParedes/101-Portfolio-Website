@@ -137,6 +137,7 @@ section {
     display: grid;
     justify-content: center;
     align-content: stretch;
+    text-align: center;
     width: 50vh;
     height: fit-content;
     margin: 20px 40px;
@@ -196,4 +197,89 @@ section.A5 {
 
 .diffont {
     font-size: 15px;
+}
+
+@media (max-width: 576px) {
+
+
+    .nav-bar {
+        padding-top: 180px;
+    }
+
+    .nav-bar a {
+        font-size: 20px;
+    }
+
+    main {
+        grid-template-columns: 30% 35% 35%;
+    }
+
+    .main-container2 {
+        margin: 5px 10px 5px 0px;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        height: fit-content;
+
+    }
+
+    .links {
+        display: flex;
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin: 15px 5% 10px 0px;
+        width: fit-content;
+    } 
+
+    .se2 {
+        font-size: 16px;
+    }
+
+    .A1, .A2, .A3, .A5 {
+        margin: 5px 10px;
+        width: fit-content;
+        height: max-content;
+    }
+
+    .A1, .A2 {
+        margin-top: 20px;
+    }
+
+    .A1, .A3 {
+        margin-right: 20px;
+    }
+
+    .A1 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .A2 {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .A3 {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+
+    section.A5 {
+        grid-column: 3 / 4;
+        grid-row: 5 / 7;
+    }
+
+    li, ul, article {
+        font-size: 12px;
+    }
+
+    .profilePic {
+        height: 120px;
+        margin: 0;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    div img, .profilePic {
+        margin-right: 10px;
+    }
 }
