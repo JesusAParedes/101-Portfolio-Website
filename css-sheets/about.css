@@ -94,7 +94,7 @@ h2 {
     color: #FFF5EE;
     padding: 50px 20px;
     grid-column: 1;
-    font-size: 20px;
+    font-size: 26px;
     text-align: left;
 }
 
@@ -123,3 +123,41 @@ section p {
       background-attachment: scroll;
     }
   }
+
+  @media (max-width: 576px) {
+
+
+    .nav-bar {
+        padding-top: 180px;
+    }
+
+    .nav-bar a {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-container {
+        width: 450px;
+        padding-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 115px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .row-1, .row-1p {
+        height: 100px;
+    }
+
+}
