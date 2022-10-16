@@ -160,4 +160,8 @@ section p {
         height: 100px;
     }
 
+    footer {
+        padding: 10px 40px;
+    }
+
 }

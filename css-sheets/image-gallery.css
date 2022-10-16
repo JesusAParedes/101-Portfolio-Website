@@ -152,15 +152,19 @@ h1 {
     }
 
     .btn {
-        padding: 5px 15px;
+        padding: 2px 10px;
         background: #5319FB;
         color: #FFF5EE;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .card-img-top {
-        height: 170px;
+        height: 150px;
         border: 2px solid red;
+    }
+
+    footer {
+        padding: 10px 40px;
     }
 
     

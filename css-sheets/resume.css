@@ -282,4 +282,8 @@ section.A5 {
     div img, .profilePic {
         margin-right: 10px;
     }
+
+    footer {
+        padding: 10px 40px;
+    }
 }
