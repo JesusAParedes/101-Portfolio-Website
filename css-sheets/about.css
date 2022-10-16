@@ -185,7 +185,8 @@ section p {
     .section-container {
         width: 450px;
         padding-bottom: 5px;
-        margin: 60px;
+        padding-bottom: 140px;
+        margin-left: 50px;
     }
 
     .row-1, .row-1p {
