@@ -50,13 +50,17 @@ body {
 
 #entrance {
     padding: 12px 20px;
-    background: #00C0F9;
+    background: #5319FB;
     color: #FFF5EE;
-    border-color: #00C0F9;
+    border-color: #5319FB;
     border-radius: 9px;
     transition: transform ease;
     animation-name: test;
     animation-duration: 2s;
+}
+
+a {
+    color: #FFF5EE;
 }
 
 
